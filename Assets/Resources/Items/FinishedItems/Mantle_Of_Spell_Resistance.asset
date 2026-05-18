@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Mantle_Of_Spell_Resistance
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Mantle of Spell Resistance
+  itemIcon: {fileID: 21300000, guid: 58784f551fb6c8f4faa3e57e5feb4b0d, type: 3}
+  description: Increases Magic Resist by 25. The wearer has massive protection against
+    spells and other magical effects.
+  isConsumable: 0
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 11400000, guid: 38f3e4d8bf027ce46984509a2e573896, type: 2}
+  recipeComponentB: {fileID: 11400000, guid: 38f3e4d8bf027ce46984509a2e573896, type: 2}
+  healthBonus: 0
+  attackBonus: 0
+  armorBonus: 0
+  magicResistBonus: 25
+  abilityPowerBonus: 0
+  startingMana: 0
+  manaRegen: 0
+  attackSpeedPercent: 0
+  critChancePercent: 0
+  attackDamagePercent: 0
+  specialEffect: {fileID: 0}

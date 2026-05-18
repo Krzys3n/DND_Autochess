@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: ItemRemover
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Item Remover
+  itemIcon: {fileID: 3473796110655711639, guid: 39f0b1f23eaa9314f940e2f2c636bbad, type: 3}
+  description: Removes Items from unit.
+  isConsumable: 1
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 0}
+  recipeComponentB: {fileID: 0}
+  healthBonus: 0
+  attackBonus: 0
+  armorBonus: 0
+  magicResistBonus: 0
+  abilityPowerBonus: 0
+  manaPerAttack: 0
+  attackSpeedPercent: 0
+  critChancePercent: 0
+  attackDamagePercent: 0
+  specialEffect: {fileID: 11400000, guid: cea98c85cad120d438d0ff7c0d3c45ed, type: 2}

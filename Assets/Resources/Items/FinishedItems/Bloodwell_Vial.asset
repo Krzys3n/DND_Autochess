@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Bloodwell_Vial
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Bloodwell Vial
+  itemIcon: {fileID: 21300000, guid: 9e0d34f29facff84981eb257a7b5647f, type: 3}
+  description: 'Increases Ability Power by 30 and Health by 30 and attack damage
+    by 15%. Grants "Essence Transfer": The wearer heals for 20% of all damage dealt
+    (both from abilities and basic attacks). Additionally, whenever the wearer heals
+    themselves through this effect, 50% of that healing is also granted to the ally
+    with the lowest current Health. A crystal vial filled with ethereally pulsing
+    blood that resonates with every blow struck; it acts as a spiritual siphon, weaving
+    the life force stolen from enemies into a mending wave for those most in need.'
+  isConsumable: 0
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 11400000, guid: a496f9cba0fd1ea40a05470b14c19edf, type: 2}
+  recipeComponentB: {fileID: 11400000, guid: 8f18b0164cd3ff7478ce0333acaf15a3, type: 2}
+  healthBonus: 30
+  attackBonus: 0
+  armorBonus: 0
+  magicResistBonus: 0
+  abilityPowerBonus: 30
+  startingMana: 0
+  manaRegen: 0
+  attackSpeedPercent: 0
+  critChancePercent: 0
+  attackDamagePercent: 15
+  specialEffect: {fileID: 0}

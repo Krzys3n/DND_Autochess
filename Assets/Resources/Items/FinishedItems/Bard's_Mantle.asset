@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Bard's_Mantle
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Bard's Mantle
+  itemIcon: {fileID: 21300000, guid: 562c1251c7cded14fb5e4f1e48f37bcf, type: 3}
+  description: Grants the Bard class. A vibrant, reversible cloak that shimmers with
+    melodic enchantments; it amplifies the wearer's presence and wit, allowing them
+    to inspire allies and weave subtle charms into the very air.
+  isConsumable: 0
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 11400000, guid: 23247d4d6a40fdb4595730f88c45d048, type: 2}
+  recipeComponentB: {fileID: 11400000, guid: 38f3e4d8bf027ce46984509a2e573896, type: 2}
+  healthBonus: 0
+  attackBonus: 0
+  armorBonus: 0
+  magicResistBonus: 5
+  abilityPowerBonus: 0
+  startingMana: 0
+  manaRegen: 0
+  attackSpeedPercent: 0
+  critChancePercent: 0
+  attackDamagePercent: 0
+  specialEffect: {fileID: 11400000, guid: 02d2925442f39344892ed8df33ac90f5, type: 2}

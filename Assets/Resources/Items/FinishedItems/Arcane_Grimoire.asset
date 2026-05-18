@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Arcane_Grimoire
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Arcane Grimoire
+  itemIcon: {fileID: 21300000, guid: cf3286e671d698e418c5cffc16e7d9d8, type: 3}
+  description: 'Increases Ability Power by 30. Grants "Eternal Scholar": Every 5
+    seconds during combat, the wearer gains an additional 30 Ability Power. This
+    effect stacks until the end of the battle. A heavy, leather-bound book with silver-edged
+    pages that shimmer with arcane residue; it absorbs the ambient energy of the
+    battlefield, translating the chaos of combat into a focused, unstoppable surge
+    of magical power.'
+  isConsumable: 0
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 11400000, guid: 2df0c8ef5a8f13942a276d5efc8bf76e, type: 2}
+  recipeComponentB: {fileID: 11400000, guid: 8f18b0164cd3ff7478ce0333acaf15a3, type: 2}
+  healthBonus: 0
+  attackBonus: 0
+  armorBonus: 0
+  magicResistBonus: 0
+  abilityPowerBonus: 30
+  startingMana: 0
+  manaRegen: 0
+  attackSpeedPercent: 0
+  critChancePercent: 0
+  attackDamagePercent: 0
+  specialEffect: {fileID: 0}

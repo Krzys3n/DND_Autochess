@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Gloves_Of_Thievery
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Gloves of Thievery
+  itemIcon: {fileID: 21300000, guid: 1fb406f34c6f70740b8b8118b6b45327, type: 3}
+  description: Increases Critical Strike Chance by 20% and Maximum Health by 15.
+    At the start of each round, the wearer "borrows" two random temporary items from
+    the shop's hoard. Consumes 3 item slots.
+  isConsumable: 0
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 11400000, guid: 1a82d13488f9b7946ad6b6083da4077a, type: 2}
+  recipeComponentB: {fileID: 11400000, guid: 1a82d13488f9b7946ad6b6083da4077a, type: 2}
+  healthBonus: 15
+  attackBonus: 0
+  vampirism: 0
+  armorBonus: 0
+  magicResistBonus: 0
+  abilityPowerBonus: 0
+  startingMana: 0
+  manaRegen: 0
+  attackSpeedPercent: 0
+  critChancePercent: 20
+  attackDamagePercent: 0
+  healthPercentBonus: 0
+  armorPercentBonus: 0
+  magicResistPercentBonus: 0
+  specialEffect: {fileID: 11400000, guid: 0280cbf991b286f49a57c87bae255599, type: 2}

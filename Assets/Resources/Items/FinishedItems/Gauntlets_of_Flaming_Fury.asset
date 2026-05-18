@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Gauntlets_of_Flaming_Fury
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Gauntlets of Flaming Fury
+  itemIcon: {fileID: 21300000, guid: 82fad736aa803f0418d17b4eee328ccd, type: 3}
+  description: Increases Armor by 5 and Critical Strike Chance by 20%. Every 5th
+    time the wearer takes damage, they release a burst of fire dealing Magic Damage
+    to all adjacent enemies. The wearer's next basic attack after the burst is a
+    guaranteed Critical Strike. Heavy plate gauntlets that glow with a dull, infernal
+    red, smelling faintly of sulfur and scorched iron.
+  isConsumable: 0
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 11400000, guid: 45374c9653c9be74fb08fe5fa5b7d50a, type: 2}
+  recipeComponentB: {fileID: 11400000, guid: 1a82d13488f9b7946ad6b6083da4077a, type: 2}
+  healthBonus: 0
+  attackBonus: 0
+  vampirism: 0
+  armorBonus: 5
+  magicResistBonus: 0
+  abilityPowerBonus: 0
+  startingMana: 0
+  manaRegen: 0
+  attackSpeedPercent: 0
+  critChancePercent: 20
+  attackDamagePercent: 0
+  healthPercentBonus: 0
+  armorPercentBonus: 0
+  magicResistPercentBonus: 0
+  specialEffect: {fileID: 11400000, guid: edd44536508755e4583c3867a3306fc4, type: 2}

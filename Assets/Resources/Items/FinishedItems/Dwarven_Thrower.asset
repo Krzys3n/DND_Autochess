@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Dwarven_Thrower
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Dwarven Thrower
+  itemIcon: {fileID: 21300000, guid: 2779b53ef9192b044ab5429d60132285, type: 3}
+  description: Increases Attack Speed by 20% and Armor by 5. Gain 2% Attack Damage
+    and 2% Attack Speed each time you attack or take damage, stacking up to 25 times.
+    At maximum stacks, gain 5 Armor, 5 Magic Resist, and immunity to all crowd control
+    effects. A relic of the Great Hunt, bound with ancient runes that pulse with
+    a golden light as the battle's fervor reaches its peak.
+  isConsumable: 0
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 11400000, guid: 51602f96890f621419638453046451ff, type: 2}
+  recipeComponentB: {fileID: 11400000, guid: 45374c9653c9be74fb08fe5fa5b7d50a, type: 2}
+  healthBonus: 0
+  attackBonus: 0
+  vampirism: 0
+  armorBonus: 5
+  magicResistBonus: 0
+  abilityPowerBonus: 0
+  startingMana: 0
+  manaRegen: 0
+  attackSpeedPercent: 20
+  critChancePercent: 0
+  attackDamagePercent: 0
+  healthPercentBonus: 0
+  armorPercentBonus: 0
+  magicResistPercentBonus: 0
+  specialEffect: {fileID: 11400000, guid: afcc4c6342a0a234b9be451f0eb3379f, type: 2}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Quiver_of_Ehlonna
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Quiver of Ehlonna
+  itemIcon: {fileID: 21300000, guid: eab7686c78ef49d4082f567ed31ba222, type: 3}
+  description: Increases Attack Speed by 20% and Health by 40. At the start of combat,
+    the wearer and all adjacent allies gain 20% bonus Attack Speed for the remainder
+    of the battle. An ivory-trimmed quiver blessed by the Goddess of the Woodlands;
+    it magically produces exactly the right projectile at the right moment, allowing
+    an entire squad to rain down fire with impossible coordination.
+  isConsumable: 0
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 11400000, guid: 51602f96890f621419638453046451ff, type: 2}
+  recipeComponentB: {fileID: 11400000, guid: a496f9cba0fd1ea40a05470b14c19edf, type: 2}
+  healthBonus: 40
+  attackBonus: 0
+  vampirism: 0
+  armorBonus: 0
+  magicResistBonus: 0
+  abilityPowerBonus: 0
+  startingMana: 0
+  manaRegen: 0
+  attackSpeedPercent: 20
+  critChancePercent: 0
+  attackDamagePercent: 0
+  healthPercentBonus: 0
+  armorPercentBonus: 0
+  magicResistPercentBonus: 0
+  specialEffect: {fileID: 11400000, guid: 930e8bbcc6773b14e9394c3dd8143cec, type: 2}

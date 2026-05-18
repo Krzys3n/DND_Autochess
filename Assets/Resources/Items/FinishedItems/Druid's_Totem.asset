@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Druid's_Totem
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Druid's Totem
+  itemIcon: {fileID: 21300000, guid: 05492b9ff98b81a4a853d3a5fedcde6c, type: 3}
+  description: Grants the Druid class. A charm woven from living roots and ancient
+    oak; it pulses with the primal vitality of the Earth, granting the wearer the
+    strength of the wild and the resilience of an ancient forest.
+  isConsumable: 0
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 11400000, guid: 23247d4d6a40fdb4595730f88c45d048, type: 2}
+  recipeComponentB: {fileID: 11400000, guid: a496f9cba0fd1ea40a05470b14c19edf, type: 2}
+  healthBonus: 40
+  attackBonus: 0
+  armorBonus: 0
+  magicResistBonus: 0
+  abilityPowerBonus: 0
+  startingMana: 0
+  manaRegen: 0
+  attackSpeedPercent: 0
+  critChancePercent: 0
+  attackDamagePercent: 0
+  specialEffect: {fileID: 11400000, guid: ff7bd7686c47dc440b328c4474a44f71, type: 2}

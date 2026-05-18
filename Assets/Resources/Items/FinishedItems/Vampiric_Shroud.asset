@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Vampiric_Shroud
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Vampiric Shroud
+  itemIcon: {fileID: 21300000, guid: 7497fac1173a8ce44b57eb8d8f5b5501, type: 3}
+  description: Increases Attack Damage by 20% and Magic Resist by 3. Heals the wearer
+    for 20% of all damage dealt.Once per combat, when the wearer's Health is about
+    to fall below 40%, they instantly generate a Shield equal to 25% of their Maximum
+    Health for 5 seconds.. A tattered crimson cloak paired with a jagged blade, both
+    cursed with an insatiable hunger for the life essence of others.
+  isConsumable: 0
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 11400000, guid: 6a9cef98d2af985428208632994cf68a, type: 2}
+  recipeComponentB: {fileID: 11400000, guid: 38f3e4d8bf027ce46984509a2e573896, type: 2}
+  healthBonus: 0
+  attackBonus: 0
+  vampirism: 20
+  armorBonus: 0
+  magicResistBonus: 3
+  abilityPowerBonus: 0
+  startingMana: 0
+  manaRegen: 0
+  attackSpeedPercent: 0
+  critChancePercent: 0
+  attackDamagePercent: 20
+  healthPercentBonus: 0
+  armorPercentBonus: 0
+  magicResistPercentBonus: 0
+  specialEffect: {fileID: 11400000, guid: 76b455e0e3650ac4aaeed64b31bb8414, type: 2}

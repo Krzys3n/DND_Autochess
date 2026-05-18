@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Adventurers_Pouch
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Adventurer's Pouch
+  itemIcon: {fileID: -3581846890203727574, guid: 041372ae2dd5d2f4e95d52c7a4b32c29, type: 3}
+  description: Increases Maximum Health by 15. Contains essential survival gear for
+    enduring prolonged engagements.
+  isConsumable: 0
+  isFinishedItem: 0
+  recipeComponentA: {fileID: 0}
+  recipeComponentB: {fileID: 0}
+  healthBonus: 15
+  attackBonus: 0
+  armorBonus: 0
+  magicResistBonus: 0
+  abilityPowerBonus: 0
+  manaPerAttack: 0
+  attackSpeedPercent: 0
+  critChancePercent: 0
+  specialEffect: {fileID: 0}

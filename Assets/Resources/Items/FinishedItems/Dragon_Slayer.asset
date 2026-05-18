@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Dragon_Slayer
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Dragon Slayer
+  itemIcon: {fileID: 21300000, guid: c3bcf1565eca3664f9b610fc28dc8abf, type: 3}
+  description: Increases Attack Speed by 20% and Attack Damage by 20%. Attacks deal
+    5% of the target's Maximum Health as additional Physical Damage on hit. This
+    bonus damage is doubled when fighting Dragons. A weapon forged in dragonfire,
+    destined to bring low the most ancient of terrors.
+  isConsumable: 0
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 11400000, guid: 6a9cef98d2af985428208632994cf68a, type: 2}
+  recipeComponentB: {fileID: 11400000, guid: 51602f96890f621419638453046451ff, type: 2}
+  healthBonus: 0
+  attackBonus: 0
+  armorBonus: 0
+  magicResistBonus: 0
+  abilityPowerBonus: 0
+  startingMana: 0
+  manaRegen: 0
+  attackSpeedPercent: 20
+  critChancePercent: 0
+  attackDamagePercent: 20
+  healthPercentBonus: 0
+  armorPercentBonus: 0
+  magicResistPercentBonus: 0
+  specialEffect: {fileID: 11400000, guid: a11a0fe8845a69f4097fa9aed1d3e164, type: 2}

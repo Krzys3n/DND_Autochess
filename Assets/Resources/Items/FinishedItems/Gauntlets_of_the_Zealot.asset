@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Gauntlets_of_the_Zealot
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Gauntlets of the Zealot
+  itemIcon: {fileID: 21300000, guid: 57a860cfbfed81245a1616867b13c156, type: 3}
+  description: Increases Critical Strike Chance by 20% grants 20 Starting Mana. Whenever
+    the wearer lands a Critical Strike, they instantly restore 15 Mana. Heavy leather
+    gloves reinforced with iron studs and holy seals; they pulse with a fierce light,
+    converting every bone-shattering blow into a surge of divine energy for their
+    wearer.
+  isConsumable: 0
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 11400000, guid: 1a82d13488f9b7946ad6b6083da4077a, type: 2}
+  recipeComponentB: {fileID: 11400000, guid: 2df0c8ef5a8f13942a276d5efc8bf76e, type: 2}
+  healthBonus: 0
+  attackBonus: 0
+  armorBonus: 0
+  magicResistBonus: 0
+  abilityPowerBonus: 0
+  startingMana: 20
+  manaRegen: 0
+  attackSpeedPercent: 0
+  critChancePercent: 30
+  attackDamagePercent: 0
+  healthPercentBonus: 0
+  armorPercentBonus: 0
+  magicResistPercentBonus: 0
+  specialEffect: {fileID: 0}

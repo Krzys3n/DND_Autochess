@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce40aec2212759b479185ef336e50046, type: 3}
+  m_Name: Disarmed
+  m_EditorClassIdentifier: Assembly-CSharp::StatusEffectSO
+  type: 3
+  effectName: Disarm
+  duration: 10
+  icon: {fileID: 3551854905993185965, guid: 9377f771bea9b534996b41c8f37ed5bb, type: 3}
+  iconTint: {r: 1, g: 1, b: 1, a: 1}
+  modifierValue: 1
+  tickRate: 1

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Scimitar_of_Speed
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Scimitar of Speed
+  itemIcon: {fileID: 21300000, guid: 68d354cea1bb7e54e9a40bd7c95aebdb, type: 3}
+  description: Increases Attack Speed by 10% and Ability Power by 10. Each basic
+    attack grants a stack of "Flicker", increasing Attack Speed by an additional
+    5%. This effect stacks infinitely until the end of the combat. A curved blade
+    of exquisite elven craft that feels weightless in the hand; it moves with such
+    supernatural celerity that it strikes before the wielder even consciously decides
+    to swing.
+  isConsumable: 0
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 11400000, guid: 51602f96890f621419638453046451ff, type: 2}
+  recipeComponentB: {fileID: 11400000, guid: 8f18b0164cd3ff7478ce0333acaf15a3, type: 2}
+  healthBonus: 0
+  attackBonus: 0
+  vampirism: 0
+  armorBonus: 0
+  magicResistBonus: 0
+  abilityPowerBonus: 10
+  startingMana: 0
+  manaRegen: 0
+  attackSpeedPercent: 10
+  critChancePercent: 0
+  attackDamagePercent: 0
+  healthPercentBonus: 0
+  armorPercentBonus: 0
+  magicResistPercentBonus: 0
+  specialEffect: {fileID: 11400000, guid: 4a69301cc604d794faed819d8e08d0f7, type: 2}

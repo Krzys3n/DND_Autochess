@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d09948a616657489d48989d7ee2ea5, type: 3}
+  m_Name: Delaan_Winterhound
+  m_EditorClassIdentifier: Assembly-CSharp::UnitData
+  unitName: Delaan Winterhound
+  faction: {fileID: 11400000, guid: 7c69c2d7bd54e9148a83c0226899ec96, type: 2}
+  unitClasses:
+  - {fileID: 11400000, guid: 66ff4a6224e60b946b124bca9d5064c3, type: 2}
+  race: 
+  rarity: 1
+  cost: 1
+  maxMana: 100
+  startMana: 0
+  manaPerAttack: 10
+  manaRegenPerSecond: 0
+  abilityPower: 0
+  hitChance: 1
+  dodgeChance: 0
+  maxHP: 100
+  attack: 10
+  vampirism: 0
+  defense: 5
+  magicDefense: 3
+  critChance: 0.1
+  attackSpeed: 1
+  attackRange: 3.5
+  baseAbilityPower: 30
+  maxHP_Lvl2: 250
+  attack_Lvl2: 25
+  defense_Lvl2: 12
+  magicDefense_Lvl2: 8
+  baseAbilityPower_Lvl2: 60
+  maxHP_Lvl3: 600
+  attack_Lvl3: 60
+  defense_Lvl3: 30
+  magicDefense_Lvl3: 20
+  baseAbilityPower_Lvl3: 90
+  defaultAbility: {fileID: 11400000, guid: 1189221917d06aa43b1e149dfad4912b, type: 2}
+  unitSprite: {fileID: 0}
+  factionIcon: {fileID: 9128258457719440122, guid: 6851e5465341af84ebb6499607ca6333, type: 3}
+  spriteTint: {r: 1, g: 1, b: 1, a: 1}

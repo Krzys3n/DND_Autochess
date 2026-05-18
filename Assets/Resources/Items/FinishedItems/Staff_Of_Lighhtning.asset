@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Staff_Of_Lighhtning
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Staff of Lightning
+  itemIcon: {fileID: 21300000, guid: f251e73f0b1396145a0f04ab2c0a4452, type: 3}
+  description: Increases Attack Speed by 20% and grants 30 Starting Mana. Every 3rd
+    basic attack unleashes a "Chain Lightning" that jumps between 4 nearby enemies,
+    dealing 10 + 10% ability power Magic Damage and applying hex status condition.
+    A staff-length bow wrapped in copper wire, crackling with the captured fury of
+    a summer storm. Its arrows are not wood, but bolts of pure electricity.
+  isConsumable: 0
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 11400000, guid: 51602f96890f621419638453046451ff, type: 2}
+  recipeComponentB: {fileID: 11400000, guid: 2df0c8ef5a8f13942a276d5efc8bf76e, type: 2}
+  healthBonus: 0
+  attackBonus: 0
+  vampirism: 0
+  armorBonus: 0
+  magicResistBonus: 0
+  abilityPowerBonus: 0
+  startingMana: 30
+  manaRegen: 0
+  attackSpeedPercent: 20
+  critChancePercent: 0
+  attackDamagePercent: 0
+  healthPercentBonus: 0
+  armorPercentBonus: 0
+  magicResistPercentBonus: 0
+  specialEffect: {fileID: 11400000, guid: 55758af0497ba4a4ba54ddf5e2c0adb9, type: 2}

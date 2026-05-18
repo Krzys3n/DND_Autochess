@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bb2a3a3530f20429a45d1aa94b932d, type: 3}
+  m_Name: Mantle_of_Free_Action
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: Mantle of Free Action
+  itemIcon: {fileID: 21300000, guid: af1ea5ba7547fd24c8d599fe8fb2d5c2, type: 3}
+  description: Increases Magic Resist by 5, Critical Strike Chance by 20% and attack
+    speed by 20%. The wearer is permanently invoulnerable on status conditions for
+    the duration of the combat. A flowing, silk-like cloak that feels as light as
+    air; it magically adjusts its threads to ensure the wearer's movements are never
+    hampered, whether by physical chains or magical shackles.
+  isConsumable: 0
+  isFinishedItem: 1
+  recipeComponentA: {fileID: 11400000, guid: 1a82d13488f9b7946ad6b6083da4077a, type: 2}
+  recipeComponentB: {fileID: 11400000, guid: 38f3e4d8bf027ce46984509a2e573896, type: 2}
+  healthBonus: 0
+  attackBonus: 0
+  vampirism: 0
+  armorBonus: 0
+  magicResistBonus: 5
+  abilityPowerBonus: 0
+  startingMana: 0
+  manaRegen: 0
+  attackSpeedPercent: 20
+  critChancePercent: 20
+  attackDamagePercent: 0
+  healthPercentBonus: 0
+  armorPercentBonus: 0
+  magicResistPercentBonus: 0
+  specialEffect: {fileID: 11400000, guid: c0044628b27a69e4e95d04e4e2cd445e, type: 2}
